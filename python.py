@@ -1,6 +1,16 @@
 
 print('\n\n')
 
+
+
+
+print('\n\n')
+
+'''
+
+
+
+------------------------------
 #list
 case_stats=[21,12,8]
 
@@ -44,10 +54,6 @@ str(case_stats['Solved']['july']),'\n')
 del case_stats['Solved']
 
 print(case_stats,'\n')
-
-print('\n\n')
-
-'''
 
 ----------------------------
 misc=['purple',99,3.14,False,['apple','orange','pear']]
