@@ -1,6 +1,5 @@
-
+ 
 print('\n\n')
-
 
 print('\n\n')
 
@@ -9,6 +8,27 @@ print('\n\n')
 
 
 
+def green_agent(letter, total_cases,solved_cases):
+	print('Hello Agent '+letter+'!')
+	print('\tYou have solved '+str(solved_cases)+'Cases')
+
+	percent_solved= round(solved_cases*100/total_cases,2)
+	print('\tThat\'s' + str(percent_solved)+'% of your total cases marked as solved, Great job!\n')
+
+
+green_agent('k',11,8)
+green_agent('l',15,12)
+
+
+def addition(x,y):
+	return x*y*3.1415
+	print('you will never know i exist')
+calculation=addition(31,11)
+print(calculation)
+#for i in range(0,6): 
+
+
+--------------------------
 counter=1
 
 while counter<=3:
