@@ -14,7 +14,7 @@ except TypeError:
 
 
 '''
-
+#Hero and monster game !
 import random
 list=['attack','defence','heal','fatalkill']
 class random_maker():
