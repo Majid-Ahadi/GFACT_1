@@ -1,5 +1,20 @@
 print('\n\n')
 
+try:
+	print(5/0)
+except ZeroDivisionError:
+	print("You can't divide by zero!")
+
+
+x='apple'
+try:
+	print(x/0)
+except TypeError:
+	print("You can't divide letter by numbers!")
+
+
+'''
+
 import random
 list=['attack','defence','heal','fatalkill']
 class random_maker():
@@ -112,7 +127,6 @@ print('Monster health',Monster_health)
 print('\n\n')
 
 
-'''
 
 
 class Agent():
