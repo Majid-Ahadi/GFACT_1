@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+*/
+	
+	Multi line comment is here
+	
+	
+*/	
+	
 void main()
 {
 printf("\nHello World!\nEnter your name : ");
