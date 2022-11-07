@@ -4,8 +4,28 @@
 void main()
 {
 
+//Pointers
 
 
+int doStuff (int *stuff)
+{
+printf ("Value of stuff when arrives to do stuff: %p \n", stuff):
+*stuff += 42;
+printf ( "Address of stuff in do stuff: &p\n Value of stuff in dostuff: %d In", &stuff, stuff);
+return (*stuff);
+}
+int main) f
+int stuff= 2:
+printf ("value of stuff before do stuff : cd \n", stuff);
+doStuff(&stuff):
+printf ("Value after call
+: %d \n"
+¡stuff);
+int stuff2 = doStuff (&stuff) ;
+printf ( "Stuff 2 : %d \n", stuff2);
+//int stuff value=doStuff():
+print ( "The stuff variable contains: %d \n and is at memory address: &p \n", stuff,&stuff
+return (0) :
 
 
 
